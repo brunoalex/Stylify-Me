@@ -41,7 +41,7 @@ app.use((err, req, res, next) => {
 
 /* Routes */
 app.get("/", (req, res) => {
-  res.redirect(301, "http://stylifyme.com/");
+  res.redirect(301, "https://guarded-castle-75827.herokuapp.com/");
 });
 
 app.get("/about", (req, res) => {
@@ -67,7 +67,7 @@ app.get("/version", getVersionHandler);
 
 http.createServer(app).listen(app.get("port"), () => {
   console.log(
-    `http://localhost:${app.get("port")}/query?url=http://stylifyme.com`
+    `http://localhost:${app.get("port")}/query?url=https://guarded-castle-75827.herokuapp.com/`
   );
   console.log(`Express server listening on port ${app.get("port")}`);
 });
