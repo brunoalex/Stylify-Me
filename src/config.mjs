@@ -6,7 +6,7 @@ export const config = {
   crawlerFilePath: "stylify-crawler.js",
   screenshotCacheTime: 5000, //in ms (1000ms = 1 sec)
   validRefs: [
-    "http://stylifyme.com",
+    "https://guarded-castle-75827.herokuapp.com/",
     "http://www.stylifyme.com",
     "http://stylify.herokuapp.com",
     "http://localhost:9185",
