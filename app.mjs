@@ -45,7 +45,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/about", (req, res) => {
-  res.redirect(301, "http://stylifyme.com/about-us");
+  res.redirect(301, "https://guarded-castle-75827.herokuapp.com/about-us");
 });
 
 // renders html for PDF
